@@ -25,21 +25,6 @@ Modern networks demand:
 This project automates repeatable, high-value tasks that are traditionally manual, error
 prone, and time-consuming.
 
-network-automation/
-├── inventory/
-│   └── devices.yaml
-├── scripts/
-│   ├── backup_configs.py
-│   ├── health_check.py
-│   ├── vlan_deploy.py
-│   └── interface_audit.py
-├── templates/
-│   └── baseline_config.j2
-├── reports/
-│   └── health_report.html
-└── README.md
-
-
 Features
 Configuration Backups
 - Pulls running configurations from Cisco devices
