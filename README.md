@@ -26,23 +26,15 @@ This project automates repeatable, high-value tasks that are traditionally manua
 prone, and time-consuming.
 
 Repository Structure:
-
-network-automation/
-├── inventory/
-│   └── devices.yaml          # Centralized device inventory
-├── scripts/
-│   ├── backup_configs.py     # Automated config backups
-│   ├── health_check.py       # Device health monitoring & reporting
-│   ├── vlan_deploy.py        # Idempotent VLAN deployment
-│   └── interface_audit.py    # Access-layer interface auditing
-├── templates/
-│   └── baseline_config.j2    # Standardized baseline configuration
-├── reports/
-│   └── health_report.html    # Generated health reports
-└── README.md
+network-automation/inventory/devices.yaml
+network-automation/scripts/backup_configs.py
+network-automation/scripts/health_check.py
+network-automation/scripts/vlan_deploy.py
+network-automation/scripts/interface_audit.py
+network-automation/templates/baseline_config.j2
+network-automation/reports/health_report.html 
 
 Features
-
 Configuration Backups
 - Pulls running configurations from Cisco devices
 - Stores timestamped, per-device backups
