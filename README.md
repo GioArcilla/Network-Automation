@@ -25,14 +25,20 @@ Modern networks demand:
 This project automates repeatable, high-value tasks that are traditionally manual, error
 prone, and time-consuming.
 
-Repository Structure:
-network-automation/inventory/devices.yaml
-network-automation/scripts/backup_configs.py
-network-automation/scripts/health_check.py
-network-automation/scripts/vlan_deploy.py
-network-automation/scripts/interface_audit.py
-network-automation/templates/baseline_config.j2
-network-automation/reports/health_report.html 
+network-automation/
+├── inventory/
+│   └── devices.yaml
+├── scripts/
+│   ├── backup_configs.py
+│   ├── health_check.py
+│   ├── vlan_deploy.py
+│   └── interface_audit.py
+├── templates/
+│   └── baseline_config.j2
+├── reports/
+│   └── health_report.html
+└── README.md
+
 
 Features
 Configuration Backups
